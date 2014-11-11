@@ -7,9 +7,5 @@ alias ll='ls -l'
 alias ltr='ls -ltr'
 alias latr='ls -latr'
 
-
-
-
-
-
-
+# PS1
+PS1='\n\w\n\$'
