@@ -1,0 +1,16 @@
+
+
+set number
+set showmatch	     " highlight matching braces
+syntax on
+
+" tabs
+set tabstop=4        " tab width is 4 spaces
+set shiftwidth=4     " indent also with 4 spaces
+set expandtab
+set autoindent
+
+
+
+
+

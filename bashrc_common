@@ -1,0 +1,15 @@
+
+set -o vi
+
+# aliases
+alias l='ls'
+alias ll='ls -l'
+alias ltr='ls -ltr'
+alias latr='ls -latr'
+
+
+
+
+
+
+
