@@ -6,8 +6,10 @@ alias l='ls'
 alias ll='ls -l'
 alias ltr='ls -ltr'
 alias latr='ls -latr'
+alias la='ls -a'
+alias c='cd'
 
-
+# PS1
 
 
 
