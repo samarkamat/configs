@@ -9,9 +9,4 @@ alias latr='ls -latr'
 alias la='ls -a'
 alias c='cd'
 
-# working with virtualenv
-alias vactivate='. venv/bin/activiate'
-
-
-
 PS1='\n\w\n\$'
