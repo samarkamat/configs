@@ -8,4 +8,4 @@ alias ltr='ls -ltr'
 alias latr='ls -latr'
 
 # PS1
-PS1='\n\w\n\$'
+PS1='\n\h:\w\n\$'
