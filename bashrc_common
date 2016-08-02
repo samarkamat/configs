@@ -20,3 +20,15 @@ if [ -n "$powerlinebin" ]; then
     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 fi
 
+if [ "$(hostname)" = "lagann" ]; then
+    echo "in lagann"
+    export PYTHONPATH=/home/samar/.local:/home/samar/repos/youtube-upload/youtube_upload:${PYTHONPATH}
+    export PATH=$PATH:/home/samar/bin/drobo-utils:/home/samar/.local/bin
+    alias drobin='pushd ~/bin/drobo-utils/'
+    alias ydl='youtube-dl'
+    alias ymp3='youtube-dl --extract-audio --audio-format mp3'
+    alias activate='. venv/bin/activate'
+fi
+
+
+
