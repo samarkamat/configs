@@ -8,6 +8,7 @@ alias ltr='ls -ltr'
 alias latr='ls -latr'
 alias la='ls -a'
 alias c='cd'
+alias psef='ps -ef | grep'
 
 # PS1
 PS1='\n\h:\w\n\$'
